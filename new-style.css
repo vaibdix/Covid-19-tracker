@@ -1,0 +1,235 @@
+body {
+    background-color: #203037;
+}
+
+.main {
+    min-height: 900px;
+    max-width: 1370px;
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.map-container {
+    background-color: #0F181C;
+    border-radius: 16px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, .05);
+    box-shadow: 0 0 8px -5px rgba(0, 0, 0, 0.5);
+}
+
+.map-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.map-header h4 {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#map {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.chart-container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.chart-container .col {
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.linear-chart {
+    height: 100%;
+}
+
+.title-container h2 {
+    color: #fc3c3c;
+    margin-bottom: 0;
+}
+
+.title-container h4 {
+    text-transform: uppercase;
+    color: #CACBCF;
+}
+
+.stats-container .card {
+    overflow: hidden;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+
+.stats-container .card-body {
+    padding: 1rem;
+    background-color: #0F181C;
+
+}
+
+.stats-container .card-title {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.stats-container .card-subtitle {
+    font-weight: 600;
+}
+
+.stats-container .total {
+    font-size: 0.8rem;
+}
+
+.side-panel-container {
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: rgb(15, 24, 28);
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+}
+
+.table-cases-number {
+    text-align: right;
+    font-weight: 500;
+}
+
+.asd {
+    display: inline;
+    color: white;
+}
+
+.total-number {
+    background: linear-gradient(to right, #e5ff00, #ff0404);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.recovered-number {
+    background-image: linear-gradient(to right, #40e495, #00ffe7, #008aff);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.deaths-number {
+    background-image: linear-gradient(to right, #ff2104, #ff0404, #000000);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cases-table-container h4,
+.chart-container h4 {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.country-data .table {
+    color: #FFC441;
+}
+
+.country-data .table td {
+    padding: 0.5rem;
+    border: none;
+}
+
+.country-data .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #203037;
+}
+
+.tab-selection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 8px;
+    display: none;
+}
+
+.tab-selection.selected {
+    display: block !important;
+}
+
+.cases .tab-selection {
+    background-image: linear-gradient(to right, #e5ff00, #ff3e04);
+}
+
+.recovered .tab-selection {
+    background-image: linear-gradient(to right, #40e495, #00ffe7, #008aff);
+}
+
+.deaths .tab-selection {
+    background-image: linear-gradient(to right, #ff2104, #ff0404, #000000);
+}
+
+/*
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#scrollPath {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgb(255, 255, 255, 0.05);
+
+}
+
+#progressbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        filter: hue-rotate(0dee);
+    }
+
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+#progressbar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(10px);
+}
+
+#progressbar:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(30px);
+}
+*/
